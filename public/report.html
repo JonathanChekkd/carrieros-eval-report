@@ -35,10 +35,9 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--disp);line-
 .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 h1,h2,h3{letter-spacing:-.025em;text-wrap:balance;margin:0;font-weight:800}
 header.top{border-bottom:1px solid var(--line);padding-block:14px}
-.top__row{display:flex;align-items:center;gap:12px}
-.brand{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
-.brand img{width:24px;height:24px;object-fit:contain;filter:drop-shadow(0 0 10px rgba(120,255,73,.28))}
-.brand b{font-family:'Goterd',var(--disp);font-weight:400;font-size:22px;line-height:1;letter-spacing:.035em}
+.top__row{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:inline-flex;align-items:center;white-space:nowrap}
+.brand b{font-family:'Goterd',var(--disp);font-weight:400;font-size:22px;line-height:1;letter-spacing:.025em}
 .top__meta{font-family:var(--mono);font-size:12px;color:var(--fg3)}
 .hero{padding-block:clamp(3rem,7vw,5rem)}
 .hero .eyebrow{font-family:var(--mono);font-size:13px;color:var(--fg3);letter-spacing:.08em;text-transform:uppercase}
@@ -105,11 +104,12 @@ footer .frow{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;
 .legend span{display:inline-flex;align-items:center;gap:7px}
 :where(a,button):focus-visible{outline:2px solid var(--green-b);outline-offset:2px}
 @media(max-width:800px){.stations,.proof{grid-template-columns:1fr}.hcases{grid-template-columns:1fr}.hcase__pair{grid-template-columns:1fr}}
+@media(max-width:520px){header.top{padding-block:12px}.top__row{align-items:flex-start;flex-direction:column;gap:6px}.brand b{font-size:20px}.top__meta{font-size:11px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap top__row"><span class="brand"><img src="./carrieros-mark.png" alt=""><b>Carrier OS</b></span><span class="top__meta">local evaluation &middot; 2026-09-12</span></div></header>
+<header class="top"><div class="wrap top__row"><span class="brand"><b>CarrierOS</b></span><span class="top__meta">local evaluation &middot; 2026-09-12</span></div></header>
 <main>
 <section class="hero"><div class="wrap">
   <span class="eyebrow">One model &middot; 24 questions &middot; graded by code</span>
