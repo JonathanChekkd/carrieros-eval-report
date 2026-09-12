@@ -16,28 +16,29 @@
 <meta name="twitter:image" content="https://jonathanchekkd.github.io/carrieros-eval-report/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap">
 <style>
 @font-face{font-family:'Goterd';src:url('./Goterd.ttf') format('truetype');font-display:swap}
 :root{
-  --bg:#070a08;--raise:#0c110e;--surface:#121915;--surface2:#19221c;--line:#263129;--line2:#3a4a40;
-  --fg:#f3f7f3;--fg2:#c8d3cb;--fg3:#95a69c;
-  --green:#50aa23;--green-b:#9ef56b;--green-s:#0f1d12;--green-l:#2d5a1f;
-  --cyan:#4fd6e6;--cyan-t:#8fe8f2;--cyan-s:#0b1a1d;--cyan-l:#1f5a63;
-  --amber:#f0b23a;--amber-t:#f8cf78;--amber-s:#1f1809;--amber-l:#5c4414;
-  --red:#ff5d52;--red-t:#ff9088;--red-s:#1f100f;--red-l:#5a2622;
+  --bg:#060606;--raise:#0a0a0a;--surface:#101110;--surface2:#181a18;--line:oklch(27.4% 0 0);--line2:#454545;
+  --fg:oklch(92% 0 0);--fg2:oklch(78% 0 0);--fg3:oklch(70.5% 0 0);
+  --green:#a6ff70;--green-b:#a6ff70;--green-s:#101a0b;--green-l:#41652a;
+  --cyan:#6ea8fe;--cyan-t:#8dbbff;--cyan-s:#0b121e;--cyan-l:#29466f;
+  --amber:#fbbf24;--amber-t:#fbd36a;--amber-s:#1d1607;--amber-l:#654b0d;
+  --red:#ff2ea6;--red-t:#ff6fbd;--red-s:#1c0713;--red-l:#651044;
   --disp:'Red Hat Display',system-ui,sans-serif;--mono:'Geist Mono',ui-monospace,Menlo,monospace;--r:14px;color-scheme:dark;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--disp);line-height:1.55;font-size:16px;-webkit-font-smoothing:antialiased}
 .wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
-::selection{background:rgba(80,170,35,.38)}
+::selection{background:rgba(166,255,112,.3)}
 .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 h1,h2,h3{letter-spacing:-.025em;text-wrap:balance;margin:0;font-weight:800}
 header.top{border-bottom:1px solid var(--line);padding-block:14px}
 .top__row{display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand{display:inline-flex;align-items:center;white-space:nowrap}
-.brand b{font-family:'Goterd',var(--disp);font-weight:400;font-size:22px;line-height:1;letter-spacing:.025em}
+.brand b{font-family:'Goterd',var(--disp);font-weight:700;font-size:22px;line-height:1;letter-spacing:-.025em;padding-right:.25rem}
+.brand__os{color:var(--fg3);margin-left:.28em}
 .top__meta{font-family:var(--mono);font-size:12px;color:var(--fg3)}
 .hero{padding-block:clamp(3rem,7vw,5rem)}
 .hero .eyebrow{font-family:var(--mono);font-size:13px;color:var(--fg3);letter-spacing:.08em;text-transform:uppercase}
@@ -109,7 +110,7 @@ footer .frow{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap top__row"><span class="brand"><b>CarrierOS</b></span><span class="top__meta">local evaluation &middot; 2026-09-12</span></div></header>
+<header class="top"><div class="wrap top__row"><span class="brand"><b aria-label="Carrier OS"><span aria-hidden="true">Carrier</span><span class="brand__os" aria-hidden="true">OS</span></b></span><span class="top__meta">local evaluation &middot; 2026-09-12</span></div></header>
 <main>
 <section class="hero"><div class="wrap">
   <span class="eyebrow">One model &middot; 24 questions &middot; graded by code</span>
