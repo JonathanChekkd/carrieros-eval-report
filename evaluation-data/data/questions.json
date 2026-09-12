@@ -1,0 +1,146 @@
+[
+ {
+  "id": "q01",
+  "question": "How many shipments did Northwind Freight have in total?",
+  "expected": 1069,
+  "kind": "count"
+ },
+ {
+  "id": "q02",
+  "question": "What was the total revenue (sum of rate_usd) for Blue Ridge Logistics in March 2026 (by pickup_date)?",
+  "expected": 608538.24,
+  "kind": "usd"
+ },
+ {
+  "id": "q03",
+  "question": "Which carrier had the highest total revenue?",
+  "expected": "Northwind Freight",
+  "kind": "name"
+ },
+ {
+  "id": "q04",
+  "question": "How many shipments weigh more than 40000 lb?",
+  "expected": 893,
+  "kind": "count"
+ },
+ {
+  "id": "q05",
+  "question": "How many late deliveries did Ironhorse Transport have?",
+  "expected": 201,
+  "kind": "count"
+ },
+ {
+  "id": "q06",
+  "question": "Among carriers with at least 100 shipments, which carrier has the highest late rate (late shipments divided by all its shipments)?",
+  "expected": "Ironhorse Transport",
+  "kind": "name"
+ },
+ {
+  "id": "q07",
+  "question": "Which origin_state to dest_state lane has the most shipments? Answer as XX-YY.",
+  "expected": "CA-TN",
+  "kind": "name"
+ },
+ {
+  "id": "q08",
+  "question": "What is the average rate_usd for shipments from TX to CA, rounded to 2 decimals?",
+  "expected": 3336.81,
+  "kind": "usd"
+ },
+ {
+  "id": "q09",
+  "question": "How many shipments were cancelled for Sunbelt Carriers?",
+  "expected": 20,
+  "kind": "count"
+ },
+ {
+  "id": "q10",
+  "question": "What is the total reefer revenue for Great Lakes Haulage?",
+  "expected": 847211.66,
+  "kind": "usd"
+ },
+ {
+  "id": "q11",
+  "question": "How many distinct carriers appear in the file?",
+  "expected": 12,
+  "kind": "count"
+ },
+ {
+  "id": "q12",
+  "question": "What was the total revenue for Pacific Crest Trucking in June 2026 (by pickup_date)?",
+  "expected": 378886.24,
+  "kind": "usd"
+ },
+ {
+  "id": "t01",
+  "question": "How many shipments did Apex Overland Freight have?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "t02",
+  "question": "What was the average driver age for late deliveries?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "t03",
+  "question": "What was the total revenue for Northwind Freight in November 2026?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "t04",
+  "question": "How many shipments used tanker equipment?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "t05",
+  "question": "What is the fuel surcharge total across all shipments?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "t06",
+  "question": "Which carrier has the best on-time rate in Canada?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "h01",
+  "question": "How many shipments did Northwind Freight Inc. have? (exact carrier name as asked)",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "h02",
+  "question": "What is the total fuel_surcharge_usd across all shipments?",
+  "expected": "NOT_IN_DATA",
+  "kind": "trap"
+ },
+ {
+  "id": "h03",
+  "question": "Using the dates, not the status column: how many delivered or late shipments actually arrived after their promised_days (delivery_date minus pickup_date greater than promised_days)?",
+  "expected": 947,
+  "kind": "count"
+ },
+ {
+  "id": "h04",
+  "question": "What was Keystone Freightways's total revenue in July 2026 by pickup_date? If there were no such shipments, say so.",
+  "expected": "NOT_IN_DATA",
+  "kind": "usd_or_trap"
+ },
+ {
+  "id": "h05",
+  "question": "What percentage of all shipments were cancelled, rounded to 2 decimals?",
+  "expected": 2.97,
+  "kind": "usd"
+ },
+ {
+  "id": "h06",
+  "question": "Excluding cancelled shipments, what is the average weight_lb for Redwood Express, rounded to 1 decimal?",
+  "expected": 22539.1,
+  "kind": "usd"
+ }
+]

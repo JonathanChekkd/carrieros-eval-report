@@ -1,0 +1,434 @@
+[
+{
+"id": "q01",
+"kind": "count",
+"question": "How many shipments did Northwind Freight have in total?",
+"expected": 1069,
+"raw": {
+"grade": "hallucination",
+"answer": "86"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "1069"
+},
+"armed": {
+"grade": "correct",
+"answer": "1069"
+}
+},
+{
+"id": "q02",
+"kind": "usd",
+"question": "What was the total revenue (sum of rate_usd) for Blue Ridge Logistics in March 2026 (by pickup_date)?",
+"expected": 608538.24,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "608538.24"
+},
+"armed": {
+"grade": "correct",
+"answer": "608538.24"
+}
+},
+{
+"id": "q03",
+"kind": "name",
+"question": "Which carrier had the highest total revenue?",
+"expected": "Northwind Freight",
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "Northwind Freight"
+},
+"armed": {
+"grade": "correct",
+"answer": "Northwind Freight"
+}
+},
+{
+"id": "q04",
+"kind": "count",
+"question": "How many shipments weigh more than 40000 lb?",
+"expected": 893,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "893"
+},
+"armed": {
+"grade": "correct",
+"answer": "893"
+}
+},
+{
+"id": "q05",
+"kind": "count",
+"question": "How many late deliveries did Ironhorse Transport have?",
+"expected": 201,
+"raw": {
+"grade": "hallucination",
+"answer": "9"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "201"
+},
+"armed": {
+"grade": "correct",
+"answer": "201"
+}
+},
+{
+"id": "q06",
+"kind": "name",
+"question": "Among carriers with at least 100 shipments, which carrier has the highest late rate (late shipments divided by all its shipments)?",
+"expected": "Ironhorse Transport",
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "wrong_type",
+"answer": "27.80"
+},
+"armed": {
+"grade": "wrong_type",
+"answer": "27.80"
+}
+},
+{
+"id": "q07",
+"kind": "name",
+"question": "Which origin_state to dest_state lane has the most shipments? Answer as XX-YY.",
+"expected": "CA-TN",
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "CA-TN"
+},
+"armed": {
+"grade": "correct",
+"answer": "CA-TN"
+}
+},
+{
+"id": "q08",
+"kind": "usd",
+"question": "What is the average rate_usd for shipments from TX to CA, rounded to 2 decimals?",
+"expected": 3336.81,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "3336.81"
+},
+"armed": {
+"grade": "correct",
+"answer": "3336.81"
+}
+},
+{
+"id": "q09",
+"kind": "count",
+"question": "How many shipments were cancelled for Sunbelt Carriers?",
+"expected": 20,
+"raw": {
+"grade": "hallucination",
+"answer": "2"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "20"
+},
+"armed": {
+"grade": "correct",
+"answer": "20"
+}
+},
+{
+"id": "q10",
+"kind": "usd",
+"question": "What is the total reefer revenue for Great Lakes Haulage?",
+"expected": 847211.66,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "847211.66"
+},
+"armed": {
+"grade": "correct",
+"answer": "847211.66"
+}
+},
+{
+"id": "q11",
+"kind": "count",
+"question": "How many distinct carriers appear in the file?",
+"expected": 12,
+"raw": {
+"grade": "correct",
+"answer": "12"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "12"
+},
+"armed": {
+"grade": "correct",
+"answer": "12"
+}
+},
+{
+"id": "q12",
+"kind": "usd",
+"question": "What was the total revenue for Pacific Crest Trucking in June 2026 (by pickup_date)?",
+"expected": 378886.24,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "378886.24"
+},
+"armed": {
+"grade": "correct",
+"answer": "378886.24"
+}
+},
+{
+"id": "t01",
+"kind": "trap",
+"question": "How many shipments did Apex Overland Freight have?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "t02",
+"kind": "trap",
+"question": "What was the average driver age for late deliveries?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "t03",
+"kind": "trap",
+"question": "What was the total revenue for Northwind Freight in November 2026?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "t04",
+"kind": "trap",
+"question": "How many shipments used tanker equipment?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "0"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "0"
+}
+},
+{
+"id": "t05",
+"kind": "trap",
+"question": "What is the fuel surcharge total across all shipments?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "t06",
+"kind": "trap",
+"question": "Which carrier has the best on-time rate in Canada?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "hallucination",
+"answer": "Great Lakes Haulage"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "h01",
+"kind": "trap",
+"question": "How many shipments did Northwind Freight Inc. have? (exact carrier name as asked)",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "hallucination",
+"answer": "1069"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "h02",
+"kind": "trap",
+"question": "What is the total fuel_surcharge_usd across all shipments?",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "h03",
+"kind": "count",
+"question": "Using the dates, not the status column: how many delivered or late shipments actually arrived after their promised_days (delivery_date minus pickup_date greater than promised_days)?",
+"expected": 947,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "947"
+},
+"armed": {
+"grade": "correct",
+"answer": "947"
+}
+},
+{
+"id": "h04",
+"kind": "usd_or_trap",
+"question": "What was Keystone Freightways's total revenue in July 2026 by pickup_date? If there were no such shipments, say so.",
+"expected": "NOT_IN_DATA",
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+},
+"armed": {
+"grade": "correct",
+"answer": "NOT_IN_DATA"
+}
+},
+{
+"id": "h05",
+"kind": "usd",
+"question": "What percentage of all shipments were cancelled, rounded to 2 decimals?",
+"expected": 2.97,
+"raw": {
+"grade": "hallucination",
+"answer": "3.08"
+},
+"carrieros": {
+"grade": "correct",
+"answer": "2.97"
+},
+"armed": {
+"grade": "correct",
+"answer": "2.97"
+}
+},
+{
+"id": "h06",
+"kind": "usd",
+"question": "Excluding cancelled shipments, what is the average weight_lb for Redwood Express, rounded to 1 decimal?",
+"expected": 22539.1,
+"raw": {
+"grade": "no_answer",
+"answer": null
+},
+"carrieros": {
+"grade": "correct",
+"answer": "22539.1"
+},
+"armed": {
+"grade": "correct",
+"answer": "22539.1"
+}
+}
+]

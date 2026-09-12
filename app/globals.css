@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+html,
+body,
+.report-shell {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  background: #070a08;
+}
+
+.report-shell {
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.report-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #070a08;
+}
