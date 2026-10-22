@@ -18,3 +18,5 @@ npm run build
 ```
 
 The original evaluation materials used by the published report are included under `evaluation-data/`. Low-level proxy logs are intentionally excluded because they contain runtime and infrastructure traces that are not needed to verify the published results.
+
+Context freshness, ownership and confidentiality: [MAINTENANCE.md](MAINTENANCE.md).
